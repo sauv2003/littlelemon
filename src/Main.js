@@ -1,3 +1,7 @@
+import React from 'react';
+import GreekSalad from './green salad.jpg'; 
+import Bruschetta from './Roasted-Tomato-Bruschetta.jpg';
+import LemonDessert from './lemon dessert.jpg';
 function Main() {
     return (
         <main>
@@ -13,17 +17,17 @@ function Main() {
                 <h2>Specials</h2>
                 <div className="specials-container">
                     <article>
-                        <img src="placeholder.jpg" alt="Greek Salad" />
+                        <img src={GreekSalad} alt="Greek Salad" />
                         <h3>Greek Salad</h3>
                         <p>Lorem ipsum dolor sit amet...</p>
                     </article>
                     <article>
-                        <img src="placeholder.jpg" alt="Bruschetta" />
+                        <img src={Bruschetta} alt="Bruschetta" />
                         <h3>Bruschetta</h3>
                         <p>Lorem ipsum dolor sit amet...</p>
                     </article>
                     <article>
-                        <img src="placeholder.jpg" alt="Lemon Dessert" />
+                        <img src={LemonDessert} alt="Lemon Dessert" />
                         <h3>Lemon Dessert</h3>
                         <p>Lorem ipsum dolor sit amet...</p>
                     </article>
