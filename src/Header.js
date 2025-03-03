@@ -1,5 +1,5 @@
 import logo from './Logo.svg';
-import Nav from './Nav';
+import Nav from './Components/Nav.js';
 
 function Header() {
     return (

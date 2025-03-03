@@ -2,21 +2,15 @@ function Footer() {
     return (
         <footer>
             <div className="footer-section">
-                <h3>Important New Options</h3>
-                <ul>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#reservations">Reservations</a></li>
-                    <li><a href="#order-online">Order Online</a></li>
-                    <li><a href="#login">Login</a></li>
-                </ul>
+                <h3>Copyright@ </h3>
+                <h3>Saurabh Vishwakarma</h3>
             </div>
 
             <div className="footer-section">
                 <h3>Contact</h3>
-                <p>Address</p>
-                <p>Phone Number</p>
-                <p>Email</p>
+                <p>Address: Kanpur, India</p>
+                <p>Phone Number: 7828986161</p>
+                <p>Email: surabhv21@iitk.ac.in</p>
             </div>
 
             <div className="footer-section">
